@@ -1,0 +1,31 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+.vercel/
+npm-debug.log*
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.*
+!.env.example
+
+# Docker & Volumes Locais
+postgres_data/
+redis_data/
+
+# IDEs & Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
